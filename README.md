@@ -10,16 +10,12 @@ This landing page is designed as a responsive interface for a mobile application
 1. Ensure Visual Studio Code or your chosen text editor is installed.
 2. Clone this repository using the command:
    ```bash
-   git clone https://github.com/yourusername/deep-thought-frontend.git
+   git clone https://github.com/username/frontend-task.git
    ```
-3. Navigate to the project directory:
-   ```bash
-   cd deep-thought-frontend
-   ```
-4. Install the Live Server extension in Visual Studio Code or a similar extension in your preferred text editor.
-5. Open the project folder in Visual Studio Code or your text editor.
-6. Right-click on the `index.html` file.
-7. Select 'Open with Live Server' from the context menu.
-8. The landing page should open in your default browser. If it doesn't, manually open `http://localhost:5500/index.html` in your browser.
+3. Install the Live Server extension in Visual Studio Code or a similar extension in your preferred text editor.
+4. Open the project folder in Visual Studio Code or your text editor.
+5. Right-click on the `index.html` file.
+6. Select 'Open with Live Server' from the context menu.
+7. The landing page should open in your default browser. If it doesn't, manually open `http://localhost:5500/index.html` in your browser.
 
 Now you can explore and interact with the responsive landing page for the mobile application. Enjoy!
