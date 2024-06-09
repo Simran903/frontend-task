@@ -407,7 +407,6 @@ nav {
     display: block;
 }
 
-
 .thread-summary {
     display: flex;
     flex-direction: column;
@@ -426,8 +425,6 @@ nav {
     border-radius: 10px;
     color: var(--white);
 }
-
-
 
 .summary-text {
     background: #0000000D;
@@ -571,7 +568,6 @@ nav {
     cursor: pointer;
 }
 
-
 .introduction-thread h1 i {
     margin-right: 20px;
 }
@@ -631,10 +627,7 @@ nav {
 }
 
 
-
-
 @media only screen and (max-width: 768px) {
-
 
     nav {
         padding-top: 10px;
@@ -648,7 +641,6 @@ nav {
         flex-direction: row;
         gap: 10px;
     }
-
 
     .navbar-logo img {
         position: relative;
@@ -666,7 +658,6 @@ nav {
         align-items: center;
     }
 
-
     .navbar-right img {
         width: 33px;
         height: 30px;
@@ -680,9 +671,6 @@ nav {
         height: 25px;
         font-size: 0.7rem;
     }
-
-
-
 
     .dashboard-title-header {
         display: flex;
@@ -720,7 +708,6 @@ nav {
         margin-left: 2.0%;
         width: 95%;
     }
-
 
     .card-header i {
         font-size: 22px;
@@ -743,7 +730,6 @@ nav {
 
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 850px) {
     nav {
         padding-top: 10px;
@@ -757,7 +743,6 @@ nav {
         flex-direction: row;
         gap: 10px;
     }
-
 
     .navbar-logo img {
         position: relative;
@@ -775,7 +760,6 @@ nav {
         align-items: center;
     }
 
-
     .navbar-right img {
         width: 33px;
         height: 30px;
@@ -789,9 +773,6 @@ nav {
         height: 25px;
         font-size: 0.7rem;
     }
-
-
-
 
     .dashboard-title-header {
         display: flex;
@@ -830,12 +811,10 @@ nav {
         width: 95%;
     }
 
-
     .card-header i {
         font-size: 22px;
         position: relative;
         left: 5%;
         color: var(--white);
     }
-
 }
