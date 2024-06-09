@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: poppins;
+}
+
+:root {
+    --black-dark: #353535;
+    --black : #000;
+    --white : #fff;
+    --white-nav :#F0F0F0;
+    --base : #3683F0;
+    --basegold: #FDE598;
+    --grey : #E9ECEF;
+}
