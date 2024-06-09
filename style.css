@@ -13,3 +13,83 @@ html, body {
     --basegold: #FDE598;
     --grey : #E9ECEF;
 }
+
+nav {
+    z-index: 100;
+    padding-top: 5px;
+    top: 0;
+    background-color: var(--white-nav);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+}
+
+.logo-nav {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.logo-nav img {
+    position: relative;
+    width: 200px;
+    height: auto;
+}
+
+.right-side-nav {
+    right: 0;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+    align-items: center;
+}
+
+.switch-mode {
+    position: relative;
+    margin-right: 1.5%; 
+    width: 36px; 
+    height: 32.37px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(--white);
+    transition: 0.4s ease;
+    cursor: pointer;
+    font-size: 0.9rem; 
+}
+
+.right-side-nav img {
+    width: 40px; 
+    height: 35px; 
+position: relative;}
+
+#icon-nav-action{
+    position: relative;
+    margin-right: 1.5%; 
+    width: 36px; 
+    height: 32.37px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--base);
+    color: var(--white);
+    transition: 0.4s ease;
+    cursor: pointer;
+    font-size: 0.9rem; 
+}
+
+.switch-mode:hover {
+    background-color: var(--base);
+    color: var(--white);
+}
